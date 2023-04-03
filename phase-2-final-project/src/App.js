@@ -9,14 +9,15 @@ import About from "./About";
 import {Switch,Route} from "react-router-dom"
 
 function App() {
-  const [truck,setTruck]= useState()
+ 
+  const [trucks,setTrucks] = useState([])
   
   useEffect( () =>{
-    fetch("http://localhost:3000/Trucks")
+    fetch("http://localhost:3000/trucks")
     .then(r => r.json())
     .then (truckData => {
       console.log(truckData)
-      setTruck(truckData)} )
+      setTrucks(truckData.trucks)} )
   }, [])
 
 
@@ -29,7 +30,7 @@ function App() {
             <About />
         </Route>
         <Route path="/trucks">
-            <TruckContainer/>
+            <TruckContainer trucks={trucks}/>
         </Route>
         <Route exact path="/">
             <Home />

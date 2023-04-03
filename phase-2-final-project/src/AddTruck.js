@@ -5,9 +5,9 @@ function AddTruck() {
 
 
     return (
-        <div>
-
-        </div>
+        <form className="AddTruck"
+        
+        />
     )
 }
 
