@@ -1,1 +1,19 @@
-{ "Trucks" : [ ] }
+{ "Trucks" : [
+    {
+        "id": 1,
+        "Make": "Ford",
+        "Model":"F100",
+        "image":"Images/Colton-Ladner-trucks.jpg",
+        "Likes": "0"
+    },
+    {
+        "id": 1,
+        "Make": "Ford",
+        "Model":"F250",
+        "image":"Images/Sema-F-250-1.jpg",
+        "Likes": "0"
+    },
+
+
+ ] 
+}
