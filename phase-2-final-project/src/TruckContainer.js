@@ -8,8 +8,8 @@ function TruckContainer({trucks}){
 
     const truckObj =trucks.map(truck => {
         <Truck 
+        truck={truck}
         key={truck.id} 
-        truck={truck} 
         make={truck.make}
         model={truck.model}
         image={truck.image} 

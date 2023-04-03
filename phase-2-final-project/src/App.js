@@ -13,12 +13,13 @@ function App() {
   const [trucks,setTrucks] = useState([])
   
   useEffect( () =>{
-    fetch("http://localhost:3000/trucks")
+    fetch("http://localhost:4000/trucks")
     .then(r => r.json())
     .then (truckData => {
-      console.log(truckData)
-      setTrucks(truckData.trucks)} )
+      console.log(truckData)          //console.log
+      setTrucks(truckData)} )
   }, [])
+
 
 
   return (

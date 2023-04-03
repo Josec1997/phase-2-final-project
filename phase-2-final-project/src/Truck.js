@@ -7,7 +7,7 @@ function Truck({id,make,image,model,likes}) {
         <div className="TruckCard">
             <h4>{make}</h4>
             <h4>{model}</h4>
-            <img src={image} alt={model}/>
+            <img src={image} alt={id}/>
             <button>{likes}</button>
         </div>
     )
