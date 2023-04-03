@@ -43,6 +43,31 @@ nav {
    max-height: fit-content;
   }
 
-  H3{
+  H2{
+    position: relative;
     margin-top: 30%;
+    text-align: center;
+    font-size: xx-large
+  }
+
+  .truckCard{
+    align-content: center;
+    font-size: large;
+  }
+
+  H4{
+    width: 500px;
+  color: black;
+  border: 2px solid #000000;
+  }
+ 
+  #truck-image{
+    width: 20%;
+    height: 20%;
+    
+  }
+
+  #about{
+    position: relative;
+    top: 100px;
   }

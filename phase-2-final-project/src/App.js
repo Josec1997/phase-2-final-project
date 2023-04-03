@@ -16,10 +16,11 @@ function App() {
     fetch("http://localhost:4000/trucks")
     .then(r => r.json())
     .then (truckData => {
-      console.log(truckData)          //console.log
+      console.log(truckData)
       setTrucks(truckData)} )
   }, [])
 
+    
 
 
   return (
@@ -36,7 +37,7 @@ function App() {
         <Route exact path="/">
             <Home />
         </Route>
-        <Route path ="/AddTruck">
+        <Route path ="/addTruck">
           <AddTruck/>
         </Route>
         <Route path = "*">

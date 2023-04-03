@@ -4,12 +4,13 @@ function TruckCard({id,make,image,model,likes}) {
 
 
     return (
-        <div className="TruckCard">
-            <h4>{make}</h4>
-            <h4>{model}</h4>
-            <img src={image} alt={id}/>
-            <button>{likes}</button>
+        <div className="truckCard">
+            <h4>{make} - {model}</h4>
+            <img id ="truck-image" src={image} alt={id}/>
+            <button id = 'like-btn'>{`${likes} Likes`}</button>
+            <button id="delete-btn">Delete</button>
         </div>
+
     )
 }
 

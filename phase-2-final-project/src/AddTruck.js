@@ -8,9 +8,11 @@ function AddTruck() {
 // }
 
     return (
-        <form className="AddTruck"
-        
-        />
+        <form className="addTruck">
+        <label>Add Truck
+          <input type="text" />
+        </label>
+      </form>
     )
 }
 

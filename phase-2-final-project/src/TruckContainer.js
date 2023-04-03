@@ -9,7 +9,7 @@ function TruckContainer({trucks}){
     const truckObj =trucks.map(truck => {
         return <TruckCard
         truck={truck}
-        key={truck.id} 
+        key={truck.id}
         make={truck.make}
         model={truck.model}
         image={truck.image} 
@@ -19,9 +19,10 @@ function TruckContainer({trucks}){
     console.log("TruckCard! :",truckObj)
 
     return (
-        <div className="TruckGallery" >
-            <h3>Showcased Trucks</h3>
-            <div>{truckObj}</div>
+        <div className="truckGallery" >
+            <h2>Showcased Trucks</h2>
+            <ul>{truckObj}</ul>
+            <button id="delete-button">Delete</button>
         </div>
     )
 }
