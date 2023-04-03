@@ -12,7 +12,7 @@ function App() {
  
   const [trucks,setTrucks] = useState([])
   
-  useEffect( () =>{
+  useEffect( () => {
     fetch("http://localhost:4000/trucks")
     .then(r => r.json())
     .then (truckData => {

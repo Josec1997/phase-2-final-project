@@ -1,13 +1,13 @@
 import React from "react";
-import Truck from "./Truck"
+import TruckCard from "./TruckCard"
 
 function TruckContainer({trucks}){
 
    
-
+ console.log(trucks)
 
     const truckObj =trucks.map(truck => {
-        <Truck 
+        return <TruckCard
         truck={truck}
         key={truck.id} 
         make={truck.make}
@@ -16,7 +16,7 @@ function TruckContainer({trucks}){
         likes={truck.likes}/> 
     })
 
-    console.log(truckObj)
+    console.log("TruckCard! :",truckObj)
 
     return (
         <div className="TruckGallery" >

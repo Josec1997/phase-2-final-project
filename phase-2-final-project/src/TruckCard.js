@@ -1,6 +1,6 @@
 import React from "react";
 
-function Truck({id,make,image,model,likes}) {
+function TruckCard({id,make,image,model,likes}) {
 
 
     return (
@@ -13,4 +13,4 @@ function Truck({id,make,image,model,likes}) {
     )
 }
 
-export default Truck
+export default TruckCard
