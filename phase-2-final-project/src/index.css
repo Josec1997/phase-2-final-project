@@ -1,0 +1,48 @@
+
+nav a {
+    display: inline-block;
+    margin: 1rem 2rem;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: rgb(7, 80, 251);
+    border-bottom: 2px solid rgb(8, 60, 134);
+    transition: 0.1s;
+  }
+
+
+nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: rgb(112, 112, 112);
+    
+  }
+  
+
+  nav a:hover,
+  nav a:active {
+    color: rgb(0, 234, 255);
+    border-bottom: 2px solid rgb(0, 234, 255);
+  }
+
+  nav a.active {
+    background-color: rgb(0, 234, 255);
+    color: rgb(0, 0, 0);
+  }
+
+  #about {
+    width: 1000px;
+    height: 10000px;
+    text-align: center;
+    margin-left: 300px;
+    font-size: xx-large;
+  }
+
+  #image1{
+   max-width: 100%;
+   max-height: fit-content;
+  }
+
+  H3{
+    margin-top: 30%;
+  }
