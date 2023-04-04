@@ -62,11 +62,31 @@ nav {
     width: 500px;
   color: black;
   border: 2px solid #000000;
+  font-size: 2em;
+  box-shadow: 2px 1.5px #000000
   }
  
+body{
+  background: linear-gradient(rgb(89, 93, 99), rgb(68, 170, 201));
+}
+
+
+
   #truck-image{
-    width: 100%;;
-    
+    width: 00%;;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    float: left;
+    height: auto;
+    text-align: center;
+    border: rgb(0, 0, 0) solid 1.5px;
+    padding: 1rem;
+    width: 36rem;
+    height: 25rem;
+    display: inline-grid;
+    margin: 1rem 2rem;
+    box-shadow: 3px 4px #000000
   }
 
   #about{
@@ -99,5 +119,5 @@ font-size: x-large;
 }
 
 #delete-btn{
-  padding:5px 50px; 
+  padding:5px 47%; 
 }
