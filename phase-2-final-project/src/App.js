@@ -24,6 +24,11 @@ function App() {
     setTrucks([...trucks,newTruck])
   }
  
+  function deleteTruck(id){
+    const updatedTrucks = trucks.filter(truck => truck.id !== id)
+    setTrucks(updatedTrucks)
+  }
+
   return (
     <div>
       <Header/>
@@ -33,7 +38,7 @@ function App() {
             <About />
         </Route>
         <Route path="/truckGallery">
-            <TruckContainer trucks={trucks} />
+            <TruckContainer deleteTruck={deleteTruck} trucks={trucks} />
         </Route>
         <Route exact path="/">
             <Home />

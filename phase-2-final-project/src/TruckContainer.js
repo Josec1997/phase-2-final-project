@@ -1,11 +1,12 @@
 import React from "react";
 import TruckCard from "./TruckCard"
 
-function TruckContainer({trucks}){
-
+function TruckContainer({trucks,deleteTruck}){
+    
 
     const truckObj =trucks.map(truck => {
         return <TruckCard
+        deleteTruck={deleteTruck}
         truck={truck}
         key={truck.id}
         make={truck.make}
