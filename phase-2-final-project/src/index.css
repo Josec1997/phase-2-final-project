@@ -59,6 +59,7 @@ nav {
   }
 
   H4{
+
     width: 500px;
   color: black;
   border: 2px solid #000000;
@@ -70,7 +71,9 @@ body{
   background: linear-gradient(rgb(89, 93, 99), rgb(68, 170, 201));
 }
 
-
+#home{
+ content: ;
+}
 
   #truck-image{
     width: 00%;;
