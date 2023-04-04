@@ -4,8 +4,8 @@ nav a {
     margin: 1rem 2rem;
     text-decoration: none;
     font-size: 1.2em;
-    color: rgb(7, 80, 251);
-    border-bottom: 2px solid rgb(8, 60, 134);
+    color: rgb(42, 103, 247);
+    border-bottom: 2px solid rgb(42, 103, 247);
     transition: 0.1s;
   }
 
@@ -14,7 +14,7 @@ nav {
     position: fixed;
     left: 0;
     right: 0;
-    background-color: rgb(112, 112, 112);
+    background-color: rgb(69, 74, 76);
     
   }
   
