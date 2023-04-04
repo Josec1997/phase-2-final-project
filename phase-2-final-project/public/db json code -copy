@@ -1,0 +1,45 @@
+{
+  "trucks": [
+    {
+      "id": 1,
+      "make": "Ford",
+      "model": "F100",
+      "image": "Images/Colton-Ladner-trucks.jpg",
+      "likes": "0"
+    },
+    {
+      "id": 2,
+      "make": "Ford",
+      "model": "F250",
+      "image": "Images/Sema-F-250-1.jpg",
+      "likes": "0"
+    },
+    {
+      "id": 3,
+      "make": "Chevy",
+      "model": "Silverado",
+      "image": "Images/Chevy-sema-Truck.jpg",
+      "likes": "0"
+    },
+    {
+      "id": 4,
+      "make": "Dodge ",
+      "model": "Ram ",
+      "image": "Images/sema-dodge-truck.webp",
+      "likes": "0"
+    },
+    {
+      "id": 5,
+      "make": "Toyota",
+      "model": "Tacoma",
+      "image": "Images/Toyota-Tacoma-sema.jpg",
+      "likes": "0"
+    },
+    {
+      "make": "Toyota",
+      "model": "Tundra",
+      "image": "https://www.yotatech.com/wp-content/uploads/2019/06/coming-sema-toyota-tundra-1.jpg",
+      "id": 6
+    }
+  ]
+}
