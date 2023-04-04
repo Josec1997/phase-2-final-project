@@ -49,7 +49,7 @@ nav {
     text-align: center;
     font-style: italic;
     color: rgb(0, 0, 0);
-    font-size: 5em;
+    font-size: 4em;
   }
 
   .truckCard{
@@ -57,6 +57,14 @@ nav {
     width: 32%;
     padding: 5px;
   }
+
+p{
+  width: 1500px;
+  color: black;
+  border: 2px solid #000000;
+  font-size: 2em;
+  box-shadow: 3px 3px #000000
+}
 
   H4{
 
@@ -71,9 +79,6 @@ body{
   background: linear-gradient(rgb(89, 93, 99), rgb(68, 170, 201));
 }
 
-#home{
- content: ;
-}
 
   #truck-image{
     width: 00%;;
