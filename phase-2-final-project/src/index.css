@@ -43,6 +43,15 @@ nav {
    max-height: fit-content;
   }
 
+  H1{
+    position: relative;
+    margin-top: 30%;
+    font-style: italic;
+    color: rgb(7, 35, 247);
+    font-size: 4em;
+    text-shadow: 5px 5px 5px rgb(0, 1, 1);
+  }
+  
   H2,H3{
     position: relative;
     margin-top: 30%;
@@ -50,6 +59,7 @@ nav {
     font-style: italic;
     color: rgb(0, 0, 0);
     font-size: 4em;
+    text-shadow: 2px 2px 5px rgb(205, 239, 240);
   }
 
   .truckCard{
