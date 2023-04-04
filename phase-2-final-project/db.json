@@ -5,28 +5,28 @@
       "make": "Ford",
       "model": "F100",
       "image": "Images/Colton-Ladner-trucks.jpg",
-      
+      "likes": "0"
     },
     {
       "id": 2,
       "make": "Ford",
       "model": "F250",
       "image": "Images/Sema-F-250-1.jpg",
-     
+      "likes": "0"
     },
     {
       "id": 3,
       "make": "Chevy",
       "model": "Silverado",
       "image": "Images/Chevy-sema-Truck.jpg",
-      
+      "likes": "0"
     },
     {
       "id": 4,
       "make": "Dodge ",
       "model": "Ram ",
       "image": "Images/sema-dodge-truck.webp",
-     
+      "likes": "0"
     },
     {
       "id": 5,
@@ -40,7 +40,7 @@
       "make": "Toyota",
       "model": "Tacoma",
       "image": "Images/sema-tacoma.jpg",
-      
+      "likes": "0"
     },
     {
       "id": 7,
@@ -48,12 +48,6 @@
       "model": "Tacoma",
       "image": "Images/Toyota-Tacoma-sema.jpg",
       "likes": "0"
-    },
-    {
-      "make": "Chevy",
-      "model": "trailblazer ",
-      "image": "https://i.pinimg.com/474x/1b/54/36/1b5436de953caf76bbe7c2a762dcab17--chevrolet-trailblazer-trailblazer-ss.jpg",
-      "id": 8
     }
   ]
 }

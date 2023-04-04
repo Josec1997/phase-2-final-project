@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 
 function AddTruck({addNewTruck}) {
 
@@ -8,6 +9,7 @@ function AddTruck({addNewTruck}) {
     image:"",
     })
 
+    const history = useHistory()
     
     function handleSubmit(e) {
         e.preventDefault()
@@ -25,6 +27,7 @@ function AddTruck({addNewTruck}) {
         })
             .then(r=> r.json())
             .then(data => addNewTruck(data))
+            history.push("/TruckGallery")
     }
 
     function handleChange(e){
