@@ -6,7 +6,9 @@ function Home() {
 
     return (
         <div id = "home"> 
-            <img src = "Images/SS-image.jpg" className="image 1" alt ="SS"/>
+            <div id="home-image">
+                <img src = "Images/SS-image.jpg" className="image 1" alt ="SS"/>
+            </div>
         </div>
     )
 }

@@ -38,17 +38,16 @@ nav {
     font-size: xx-large;
   }
 
-  #image1{
-   max-width: 100%;
-   max-height: fit-content;
+  .home-image{ 
+    
   }
 
   H1{
-    position: relative;
-    margin-top: 30%;
-    font-style: italic;
+   text-align: center;
+ 
+    font-style: oblique;
     color: rgb(7, 35, 247);
-    font-size: 4em;
+    font-size: 3.5em;
     text-shadow: 5px 5px 5px rgb(0, 1, 1);
   }
   
