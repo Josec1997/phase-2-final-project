@@ -43,7 +43,7 @@ nav {
    max-height: fit-content;
   }
 
-  H2{
+  H2,H3{
     position: relative;
     margin-top: 30%;
     text-align: center;
@@ -74,16 +74,25 @@ nav {
     top: 100px;
   }
 
-  .addTruck{
-    width: 1000px;
-    height: 10000px;
-    text-align: center;
-    margin-left: 300px;
-    font-size: large
-  }
+  input[type=text] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
 
-  H3{
-    text-align: center;
-    font-size: xx-large
-  }
+}
+input[type=text]:focus {
+  border-color:#333;
+}
+input[type=submit] {
+  padding:5px 15px; 
+  background:#ccc; 
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; 
+}
 
+.addTruck{
+  margin-right: 50%;
+}
