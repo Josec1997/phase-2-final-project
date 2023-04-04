@@ -29,13 +29,6 @@
       "likes": "0"
     },
     {
-      "id": 5,
-      "make": "Toyota",
-      "model": "Tundra",
-      "image": "Images/tundra-sema.jpg",
-      "likes": "0"
-    },
-    {
       "id": 6,
       "make": "Toyota",
       "model": "Tacoma",

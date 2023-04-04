@@ -17,7 +17,7 @@ function TruckContainer({trucks,deleteTruck}){
     return (
         <div className="truckGallery" >
             <h2>Showcased Trucks</h2>
-            <ul>{truckObj}</ul>
+            <div>{truckObj}</div>
         </div>
     )
 }
