@@ -20,6 +20,9 @@ function App() {
       setTrucks(truckData)} )
   }, [])
 
+  function addNewTruck(newTruck){
+    setTrucks([...trucks,newTruck])
+  }
  
   return (
     <div>
@@ -36,7 +39,7 @@ function App() {
             <Home />
         </Route>
         <Route path ="/addTruck">
-          <AddTruck />
+          <AddTruck addNewTruck={addNewTruck}/>
         </Route>
         <Route path = "*">
             <h2>Warning: error 404 not found</h2>

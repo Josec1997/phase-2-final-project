@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function AddTruck() {
+function AddTruck({addNewTruck}) {
 
   const[truckObj,setTruckObj]=useState({
     make:"",
@@ -12,6 +12,19 @@ function AddTruck() {
     function handleSubmit(e) {
         e.preventDefault()
         console.log("SUBMITTED!")
+        fetch('http://localhost:4000/trucks',{
+            method: "POST",
+            headers: {
+            "Content-Type":"application/json"
+            },
+            body:JSON.stringify({
+                "make":truckObj.make,
+                "model":truckObj.model,
+                "image":truckObj.image
+            })
+        })
+            .then(r=> r.json())
+            .then(data => addNewTruck(data))
     }
 
     function handleChange(e){

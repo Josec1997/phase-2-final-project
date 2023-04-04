@@ -10,8 +10,7 @@ function TruckContainer({trucks}){
         key={truck.id}
         make={truck.make}
         model={truck.model}
-        image={truck.image} 
-        likes={truck.likes}/>
+        image={truck.image} />
     })
 
     console.log("TruckCard! :",truckObj)
