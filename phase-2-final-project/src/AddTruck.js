@@ -7,24 +7,35 @@ function AddTruck() {
     model:"",
     image:"",
     })
+
     
     function handleSubmit(e) {
         e.preventDefault()
         console.log("SUBMITTED!")
-     
+    }
+
+    function handleChange(e){
+        const key = e.target.name
+        const val = e.target.value
+        setTruckObj({...truckObj,[key]:val})
+        console.log(truckObj)
+    }
+
     return (
-    <div> 
+    <div>
+        <br></br>
+        <br></br>
         <h3>Add Truck</h3>
         <form onSubmit={handleSubmit}  className="addTruck" >
             <label htmlFor="make"> Add Make  </label>
-            <input required type="text" name="make" value={truckObj.make}/>
+            <input onChange={e => handleChange(e)} required type="text" name="make" value={truckObj.make}/>
 
             <label htmlFor="model">Add Model</label>
-            <input required type="text" name="model" value={truckObj.model}/>
+            <input onChange={e => handleChange(e)} required type="text" name="model" value={truckObj.model}/>
 
             <label htmlFor="AddURL">Add Truck URL</label>
-            <input required type ="text" name ="image" value={truckObj.image}/>
-            <input type ="submit" value = "submit"/>
+            <input onChange={e => handleChange(e)} required type ="text" name ="image" value={truckObj.image}/>
+            <input onChange={e => handleChange(e)} type ="submit" value = "submit"/>
          
 
 
@@ -33,5 +44,5 @@ function AddTruck() {
         
     )
  }
-} 
+
 export default AddTruck

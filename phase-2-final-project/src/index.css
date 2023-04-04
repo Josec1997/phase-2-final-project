@@ -71,3 +71,16 @@ nav {
     position: relative;
     top: 100px;
   }
+
+  .addTruck{
+    width: 1000px;
+    height: 10000px;
+    text-align: center;
+    margin-left: 300px;
+    font-size: large
+  }
+
+  H3{
+    text-align: center;
+    font-size: xx-large
+  }
