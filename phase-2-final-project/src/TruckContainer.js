@@ -3,8 +3,6 @@ import TruckCard from "./TruckCard"
 
 function TruckContainer({trucks}){
 
-   
- console.log(trucks)
 
     const truckObj =trucks.map(truck => {
         return <TruckCard
@@ -13,7 +11,7 @@ function TruckContainer({trucks}){
         make={truck.make}
         model={truck.model}
         image={truck.image} 
-        likes={truck.likes}/> 
+        likes={truck.likes}/>
     })
 
     console.log("TruckCard! :",truckObj)
@@ -22,7 +20,6 @@ function TruckContainer({trucks}){
         <div className="truckGallery" >
             <h2>Showcased Trucks</h2>
             <ul>{truckObj}</ul>
-            <button id="delete-button">Delete</button>
         </div>
     )
 }

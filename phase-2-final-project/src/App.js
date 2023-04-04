@@ -20,9 +20,7 @@ function App() {
       setTrucks(truckData)} )
   }, [])
 
-    
-
-
+ 
   return (
     <div>
       <Header/>
@@ -32,13 +30,13 @@ function App() {
             <About />
         </Route>
         <Route path="/truckGallery">
-            <TruckContainer trucks={trucks}/>
+            <TruckContainer trucks={trucks} />
         </Route>
         <Route exact path="/">
             <Home />
         </Route>
         <Route path ="/addTruck">
-          <AddTruck/>
+          <AddTruck />
         </Route>
         <Route path = "*">
             <h2>Warning: error 404 not found</h2>
