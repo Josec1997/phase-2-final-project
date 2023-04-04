@@ -74,12 +74,17 @@ p{
     padding: 5px;
   }
 
+#about{
+  width: 50%;
+}
+
 p{
-  width: 1500px;
+  width: 2000px;
   color: black;
   border: 2px solid #000000;
-  font-size: 2em;
-  box-shadow: 3px 3px #000000
+  font-size: 3em;
+  box-shadow: 3px 3px #000000;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
   H4{
