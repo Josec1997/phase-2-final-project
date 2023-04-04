@@ -26,6 +26,7 @@ function App() {
  
   function deleteTruck(id){
     const updatedTrucks = trucks.filter(truck => truck.id !== id)
+    console.log("DELETE!",id)
     setTrucks(updatedTrucks)
   }
 

@@ -8,10 +8,7 @@ function TruckContainer({trucks,deleteTruck}){
         return <TruckCard
         deleteTruck={deleteTruck}
         truck={truck}
-        key={truck.id}
-        make={truck.make}
-        model={truck.model}
-        image={truck.image} />
+        />
     })
 
     console.log("TruckCard! :",truckObj)
