@@ -6,6 +6,7 @@ function TruckContainer({trucks,deleteTruck}){
 
     const truckObj =trucks.map(truck => {
         return <TruckCard
+        key ={truck.id}
         deleteTruck={deleteTruck}
         truck={truck}
         />
