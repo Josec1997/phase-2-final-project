@@ -48,7 +48,7 @@ function App() {
           <AddTruck addNewTruck={addNewTruck}/>
         </Route>
         <Route path = "*">
-            <h2>Warning: error 404 not found</h2>
+            <h5>Warning: error 404 not found</h5>
         </Route>
       </Switch>
     </div>

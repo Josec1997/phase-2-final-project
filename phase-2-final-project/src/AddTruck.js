@@ -13,7 +13,7 @@ function AddTruck({addNewTruck}) {
     
     function handleSubmit(e) {
         e.preventDefault()
-        console.log("SUBMITTED!")
+        console.log("Submitted!")
         fetch('http://localhost:4000/trucks',{
             method: "POST",
             headers: {
@@ -34,7 +34,7 @@ function AddTruck({addNewTruck}) {
         const key = e.target.name
         const val = e.target.value
         setTruckObj({...truckObj,[key]:val})
-        console.log(truckObj)
+        console.log("added:",truckObj)
     }
 
     return (
