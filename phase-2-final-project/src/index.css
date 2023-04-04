@@ -40,14 +40,14 @@ nav {
   text-shadow: 2px 2px 5px rgb(0, 0, 0);
  }
 
-  #about {
-    width: 1000px;
-    height: 10000px;
+p{
+
+    height: 400px;
     text-align: center;
     margin-left: 300px;
     font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
   }
-
 
   H1{
    text-align: center;
@@ -143,5 +143,6 @@ font-size: x-large;
 }
 
 #delete-btn{
-  padding:5px 47%; 
+  padding:5px 30%;
+
 }
