@@ -3,13 +3,13 @@ import { useHistory } from "react-router-dom";
 
 function AddTruck({addNewTruck}) {
 
-  const[truckObj,setTruckObj]=useState({
+  const [truckObj,setTruckObj]= useState({
     make:"",
     model:"",
     image:"",
     })
 
-    const history = useHistory()
+    const history = useHistory()  
     
     function handleSubmit(e) {
         e.preventDefault()
